@@ -135,10 +135,10 @@ app = {
                 var url;
                 switch(this.env) {
                     case'development':
-                        url = 'http://darkroomlocator-server-c9-etrusco.c9.io/'
+                        url = 'http://your_dev_server/'
                         break;
                     case 'test':
-                        url = 'http://darkroomlocator-test.herokuapp.com/'
+                        url = 'http://your_test_server/'
                         break;
                     default:
                         url = 'http://www.darkroomlocator.com/'
@@ -148,7 +148,7 @@ app = {
             apiurl : function() {
                 return this.weburl() + 'api/';
             },
-            version : '3.1.0'
+            version : '1.0.0'
         },
 
         /** app global var **/
