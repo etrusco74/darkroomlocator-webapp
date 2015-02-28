@@ -22,8 +22,14 @@ img[src*="gstatic.com/"], img[src*="googleapis.com/"] {
  * necessary with Bootstrap 3 though as that behavior is relegated to the
  * `.img-responsive` class.)
  */
+
 #map_canvas,
 #map_canvas * { .box-sizing(content-box); }
+
+#map_canvas img {
+    max-width: none !important;
+    box-shadow: none !important;
+}
 
 #map_canvas_report,
 #map_canvas_report * { .box-sizing(content-box); }
