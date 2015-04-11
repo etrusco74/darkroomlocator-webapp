@@ -141,7 +141,7 @@ app = {
                         url = 'http://your_test_server/'
                         break;
                     default:
-                        url = 'http://www.darkroomlocator.com/'
+                        url = 'http://your_production_server/''
                 }
                 return url;
             },
